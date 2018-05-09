@@ -1,0 +1,25 @@
+.new {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center; 
+}
+body {
+	background: linear-gradient(to top, green, rgba(255, 175, 100, 6));
+	background-size: 800px 700px;
+	background-size: cover;
+}
+h1 {
+	font-family: fantasy;
+	text-align: center;
+	color: rgba(100, 255, 100, 5);
+
+}
+img {
+	width: 400px;
+	height: 400px;
+	margin: 10px;
+	transition: all 1s;
+}
+img:hover{
+	transform: scale(1.1);
+}
